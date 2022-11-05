@@ -24,6 +24,7 @@ function handleOtp(e) {
    }
 } 
 
+
 function handleOnPasteOtp(e) {
   const data = e.clipboardData.getData("text");
   const value = data.split("");
